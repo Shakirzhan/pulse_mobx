@@ -1,0 +1,46 @@
+body {
+  font-family: Arial;
+}
+.level_1 {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.level_2 {
+  width: 390px;
+  background: rgb(255, 255, 255);
+  border-radius: 10px;
+  position: relative;
+  padding-bottom: 90px;
+  padding-top: 50px;
+}
+.child_1 {
+  font-size: 30px;
+  color: rgb(64, 56, 102);
+  line-height: 1.2;
+  text-transform: uppercase;
+  text-align: center;
+  width: 100%;
+  display: block;
+  padding-bottom: 51px;
+}
+.child_2 {
+  width: 100%;
+  position: relative;
+  border: 1px solid transparent;
+  border-radius: 3px;
+  margin-bottom: 16px;
+}
+.child_3 {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 17px;
+}
