@@ -45,13 +45,10 @@ class Counter extends Component {
           <div class="level_2">
             <span class="child_1">Login</span>
             <div class="child_2">
-              <TextField
-                label="Username"
-                variant="outlined"
-                id="mui-theme-provider-outlined-input"
-                fullWidth
-                name="username"
-              />
+              <TextField label="Username" variant="outlined" fullWidth name="username" />
+            </div>
+            <div class="child_2">
+              <TextField label="Password" variant="outlined" fullWidth name="password" />
             </div>
             <div class="child_3">
               <Button variant="contained">Login</Button>
