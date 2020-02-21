@@ -24,7 +24,10 @@ class LoginPage extends Component {
       username,
       password
     } } = this.props;
-    
+    const isAuthenticated = this.props.store.getCookie('token');
+    if(!!isAuthenticated) {
+      this.props.history.push('/');
+    }
     return (
       <div className="App">
         <DevTools />
